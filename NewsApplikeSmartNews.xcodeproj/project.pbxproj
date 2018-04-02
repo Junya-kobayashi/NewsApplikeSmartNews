@@ -18,6 +18,8 @@
 		F6292F18206C041E00BCA800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6292F16206C041E00BCA800 /* LaunchScreen.storyboard */; };
 		F6292F23206C041F00BCA800 /* NewsApplikeSmartNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6292F22206C041F00BCA800 /* NewsApplikeSmartNewsTests.swift */; };
 		F6292F2E206C041F00BCA800 /* NewsApplikeSmartNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6292F2D206C041F00BCA800 /* NewsApplikeSmartNewsUITests.swift */; };
+		F6DD9A74207150720090F4A2 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD9A73207150720090F4A2 /* CAPSPageMenu.swift */; };
+		F6DD9A76207285910090F4A2 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD9A75207285910090F4A2 /* CAPSPageMenu+Options.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		F6292F29206C041F00BCA800 /* NewsApplikeSmartNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsApplikeSmartNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6292F2D206C041F00BCA800 /* NewsApplikeSmartNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApplikeSmartNewsUITests.swift; sourceTree = "<group>"; };
 		F6292F2F206C041F00BCA800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DD9A73207150720090F4A2 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		F6DD9A75207285910090F4A2 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				F6292F0C206C041E00BCA800 /* ViewController.swift */,
 				F6292F0E206C041E00BCA800 /* Main.storyboard */,
 				F6292F14206C041E00BCA800 /* Assets.xcassets */,
+				F6DD9A73207150720090F4A2 /* CAPSPageMenu.swift */,
+				F6DD9A75207285910090F4A2 /* CAPSPageMenu+Options.swift */,
 				F6292F16206C041E00BCA800 /* LaunchScreen.storyboard */,
 				F6292F19206C041E00BCA800 /* Info.plist */,
 				F6292F11206C041E00BCA800 /* NewsApplikeSmartNews.xcdatamodeld */,
@@ -463,6 +469,8 @@
 			files = (
 				F6292F0D206C041E00BCA800 /* ViewController.swift in Sources */,
 				F6292F0B206C041E00BCA800 /* AppDelegate.swift in Sources */,
+				F6DD9A76207285910090F4A2 /* CAPSPageMenu+Options.swift in Sources */,
+				F6DD9A74207150720090F4A2 /* CAPSPageMenu.swift in Sources */,
 				F6292F13206C041E00BCA800 /* NewsApplikeSmartNews.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
